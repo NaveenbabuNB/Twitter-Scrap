@@ -3,21 +3,27 @@ Twitter scrapping - Guvi
 Twitter Scraping with MongoDB and Streamlit
 
 This is a web-based Twitter scraping tool built with Python, using the Streamlit framework for the user interface, the Snscrape package for accessing Twitter data, and the MongoDB database to store the extracted tweets. The app allows users to search for tweets containing a specific hashtag or keyword within a given time frame, and view, download, and analyze the results in real-time.
-nstallation
 
-To use this app, you need to have Python 3.x installed on your system, as well as the following Python packages: • streamlit • snscrape • pandas • pymongo • PIL
+Installation:
 
-You can install them using pip, like this: pip install streamlit snscrape pandas pymongo pillow or requirement.txt file.
+To use this app, you need to have Python 3.x installed on your system, as well as the following Python packages:
+• streamlit
+• snscrape
+• pandas
+• pymongo
+• PIL
+You can install them using pip,
+like this: pip install streamlit snscrape pandas pymongo pillow or requirement.txt file.
 
-you also need to have access to a MongoDB database, and provide the connection string and database name in the program.
+You also need to have access to a MongoDB database, and provide the connection string and database name in the program.
 
 Usage
 
 To run the app, open a terminal, navigate to the directory where the program is located, and enter the following command: streamlit run twitter_scrape.py
-
+or use jupiter notebook it will show the command in the below output space you can just copy and run the command in Terminal or Command Prompt.
 This will start the app in your web browser, and you can interact with it using the menus and buttons.
 
-Features
+Features:
 
 The app has five menus that allow you to perform different tasks:
 
